@@ -176,4 +176,75 @@ nav .molengeek .call .num p {
   width: 10vw;
 }
 
+.accord {
+  margin-top: 5%;
+}
+
+section1 {
+  display: flex;
+  justify-content: center;
+}
+section1 .accord {
+  border: 3px solid #eaa737;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+section1 .accord .orange1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+section1 .accord .orange1 button {
+  background-color: #eaa737;
+  color: white;
+  width: 280px;
+  height: 90px;
+  border-radius: 5px;
+  border: none;
+}
+
+section2 {
+  margin: 7%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+section2 .orangecar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 5px;
+  transition: margin 0.2s ease-in-out;
+}
+section2 .orangecar .car1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdf4ea;
+  width: 20vw;
+  height: 35vh;
+  transition: 0.5s ease-in-out;
+}
+section2 .orangecar .car1 i:nth-child(1) {
+  padding: 40px;
+  font-size: 60px;
+  color: #eaa737;
+}
+section2 .orangecar .car1 i {
+  padding: 40px;
+  font-size: 30px;
+}
+section2 .orangecar:hover {
+  margin-top: -20px;
+}
+section2 .orangecar:hover .car1:hover {
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(238, 238, 238, 0.6862745098);
+  opacity: 0, 10;
+}
+
 /*# sourceMappingURL=style.css.map */
