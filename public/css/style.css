@@ -18,12 +18,74 @@ nav .molengeek .molen {
 }
 nav .molengeek .nav {
   color: white;
-  margin-right: 30px;
+  display: flex;
 }
-nav .molengeek .nav span {
-  margin: 15px;
+nav .molengeek .nav .menu {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 120px;
+  padding-left: 0px;
+  margin-top: 5px;
 }
-nav .molengeek .nav span:hover {
+nav .molengeek .nav .menu li {
+  color: #fff;
+  display: block;
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: left;
+  text-decoration: none;
+  width: 120px;
+}
+nav .molengeek .nav .menu ul {
+  background: #e8e8e8;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+nav .molengeek .nav .menu li:hover ul {
+  height: 120px;
+  opacity: 1;
+  transform: translateY(0);
+}
+nav .molengeek .nav .menu ul li:hover {
+  background-color: #c1c1c1;
+  width: 100%;
+}
+nav .molengeek .nav .menu li a {
+  text-decoration: none;
+  color: white;
+}
+nav .molengeek .nav .menu li a:hover {
+  text-decoration: none;
+  color: #e6a434;
+}
+nav .molengeek .nav .menu ul li a {
+  color: black;
+  padding: 5px;
+}
+nav .molengeek .nav .menu ul li a:hover {
+  color: black;
+}
+nav .molengeek .nav a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+nav .molengeek .nav a:nth-child(4) {
+  margin-right: 0px;
+}
+nav .molengeek .nav a:nth-child(6) {
+  margin-left: 0px;
+}
+nav .molengeek .nav a:hover {
   color: #e6a434;
 }
 nav .molengeek .call {
