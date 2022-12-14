@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+nav .molengeek {
+  width: 100%;
+  height: 150px;
+  background-color: #1e1817;
+}
+nav .molengeek .molen {
+  color: #e6a434;
+}
+nav .molengeek .nav {
+  color: white;
+}
+nav .molengeek .call {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
