@@ -467,7 +467,7 @@ section6 .titrepro span {
 }
 section6 .chef {
   width: 90vw;
-  height: 410px;
+  height: 415px;
   border-radius: 10px;
   margin: 5%;
   display: flex;
@@ -480,15 +480,20 @@ section6 .chef .cardchef {
   align-items: center;
   flex-direction: column;
   background-color: #fdf4ea;
-  height: 58vh;
+  height: 430px;
+  margin: 10px;
+  border-radius: 10px;
 }
 section6 .chef img {
   width: 100%;
-  height: 300px;
-  border-radius: 10px;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 section6 .chef h5 {
-  padding: 5%;
+  margin-top: 5%;
+}
+section6 .chef span {
+  margin-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
