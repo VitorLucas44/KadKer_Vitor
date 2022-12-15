@@ -496,4 +496,27 @@ section6 .chef span {
   margin-bottom: 5%;
 }
 
+section7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+section7 .carousselb {
+  background-color: #fdf4ea;
+  width: 70vw;
+}
+section7 .cartitre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 5px;
+}
+section7 .cartitre span {
+  color: #eaa737;
+}
+
 /*# sourceMappingURL=style.css.map */
