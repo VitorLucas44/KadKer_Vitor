@@ -548,7 +548,8 @@ section7 .new .orangenew .sign input {
   background-color: #eaa737;
   color: #827c6c;
   border: none;
-  margin: 10px;
+  margin: 3px;
+  width: 100%;
 }
 section7 .new .orangenew .sign button {
   border: none;
@@ -556,8 +557,8 @@ section7 .new .orangenew .sign button {
   color: white;
   border-radius: 10px;
   width: 90px;
-  height: 60px;
-  margin: 10px;
+  height: 40px;
+  margin: 3px;
 }
 section7 .new .orangenew h1 {
   margin-left: 5%;
