@@ -428,7 +428,10 @@ section5 .sec5txt span {
   color: #eaa737;
 }
 section5 .sec5txt h1 {
-  margin: 1%;
+  margin-bottom: 2%;
+}
+section5 .sec5txt p {
+  margin-bottom: 7%;
 }
 section5 .sec5txt .check {
   display: flex;
