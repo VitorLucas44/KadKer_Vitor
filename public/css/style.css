@@ -311,9 +311,10 @@ section4 {
 }
 section4 .sec4 {
   width: 80vw;
-  height: 90vh;
+  height: 130vh;
   background-color: #fdf4ea;
   align-items: center;
+  justify-content: center;
 }
 section4 .sec4 .sec4orange {
   display: flex;
@@ -345,6 +346,50 @@ section4 .sec4 .sec4orange .call .phone {
 }
 section4 .sec4 .sec4orange .call .num {
   margin-bottom: 15px;
+}
+section4 .sec4 .sec4titre {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+section4 .sec4 .sec4titre span {
+  color: #eaa737;
+}
+section4 .sec4 .flexcard {
+  display: flex;
+  justify-content: space-around;
+}
+section4 .sec4 .flexcard .sec4card {
+  width: 35vw;
+  height: 65vh;
+  background-color: #fefeff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  margin: 2%;
+  text-align: center;
+}
+section4 .sec4 .flexcard .sec4card img {
+  width: 100%;
+  height: 300px;
+  margin-top: 5%;
+}
+section4 .sec4 .flexcard .sec4card p {
+  margin: 2%;
+  border: 2px solid #eaa737;
+  border-radius: 30px;
+  width: 7vw;
+}
+section4 .sec4 .flexcard .sec4card span {
+  margin-top: 2%;
+}
+section4 .sec4 .flexcard .sec4card h2 {
+  margin-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
