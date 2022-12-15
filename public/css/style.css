@@ -525,11 +525,42 @@ section7 .new {
   align-items: center;
   justify-content: space-between;
   background-color: #eaa737;
-  width: 50vw;
+  width: 60vw;
   height: 20vh;
-  margin-left: 6%;
+  margin-left: 7%;
   border-radius: 10px 10px 0px 0px;
   color: white;
+}
+section7 .new .orangenew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+}
+section7 .new .orangenew .sign {
+  margin-right: 5%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+}
+section7 .new .orangenew .sign input {
+  background-color: #eaa737;
+  color: #827c6c;
+  border: none;
+  margin: 10px;
+}
+section7 .new .orangenew .sign button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 90px;
+  height: 60px;
+  margin: 10px;
+}
+section7 .new .orangenew h1 {
+  margin-left: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
