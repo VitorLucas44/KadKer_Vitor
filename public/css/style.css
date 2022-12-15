@@ -304,4 +304,47 @@ section3 .sec3txt button {
   border-radius: 20px;
 }
 
+section4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+section4 .sec4 {
+  width: 80vw;
+  height: 90vh;
+  background-color: #fdf4ea;
+  align-items: center;
+}
+section4 .sec4 .sec4orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaa737;
+  width: 70vw;
+  height: 20vh;
+  margin-left: 6%;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+}
+section4 .sec4 .sec4orange span {
+  margin: 2%;
+  font-size: 4vh;
+}
+section4 .sec4 .sec4orange .call {
+  color: white;
+  display: flex;
+  margin-top: 10px;
+  font-size: 3vh;
+  margin-right: 15px;
+}
+section4 .sec4 .sec4orange .call .phone {
+  margin-bottom: 30px;
+  font-size: 5vh;
+  transform: rotate(280deg);
+}
+section4 .sec4 .sec4orange .call .num {
+  margin-bottom: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
