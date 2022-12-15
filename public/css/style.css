@@ -392,4 +392,55 @@ section4 .sec4 .flexcard .sec4card h2 {
   margin-top: 2%;
 }
 
+section5 .sec5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+}
+section5 .sec5 .pain {
+  width: 60vw;
+  height: 60vh;
+  background-color: #eaa737;
+  border: 25px solid #fdf4ea;
+  margin: 10%;
+}
+section5 .sec5 .pain img:nth-child(1) {
+  right: 100px;
+  bottom: 100px;
+}
+section5 .sec5 .pain img:nth-child(2) {
+  left: 230px;
+  bottom: 330px;
+}
+section5 .sec5txt {
+  margin: auto;
+}
+section5 .sec5txt span {
+  margin-bottom: 20px;
+  color: #eaa737;
+}
+section5 .sec5txt h1 {
+  margin: 1%;
+}
+section5 .sec5txt .check {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+section5 .sec5txt .check span {
+  color: black;
+}
+section5 .sec5txt .check i {
+  color: #eaa737;
+}
+section5 .sec5txt button {
+  border: none;
+  width: 10vw;
+  height: 6vh;
+  background-color: #eaa737;
+  color: white;
+  border-radius: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
