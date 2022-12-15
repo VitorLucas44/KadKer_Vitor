@@ -518,5 +518,18 @@ section7 .cartitre {
 section7 .cartitre span {
   color: #eaa737;
 }
+section7 .new {
+  background-color: #eaa737;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaa737;
+  width: 50vw;
+  height: 20vh;
+  margin-left: 6%;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
