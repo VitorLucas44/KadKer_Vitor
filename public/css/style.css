@@ -724,4 +724,52 @@ footer .txtimg img {
   margin: 1%;
 }
 
+#map-container-google-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#map-container-google-1 iframe {
+  width: 80%;
+  height: 500px;
+  margin: 7%;
+}
+
+.btn1 {
+  background-color: #eaa737;
+  position: absolute;
+  top: 565px;
+  width: 30px;
+  height: 30px;
+  right: 1px;
+  left: 43%;
+  color: #eaa737;
+}
+.btn1 span img {
+  color: #eaa737;
+}
+
+.btn2 {
+  background-color: #eaa737;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 49%;
+  top: 565px;
+  color: #eaa737;
+}
+.btn2 span img {
+  color: #eaa737;
+}
+
+.blanc {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  position: relative;
+  left: 37%;
+  bottom: 50px;
+  transform: rotate(45deg);
+}
+
 /*# sourceMappingURL=style.css.map */
