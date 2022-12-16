@@ -566,6 +566,38 @@ section7 .new .orangenew h1 {
 
 footer {
   margin-top: 100px;
+  background-color: #1e1817;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+footer .noir {
+  display: flex;
+  justify-content: space-between;
+}
+footer .txtfoot {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+footer .txtfoot i {
+  margin-right: 25px;
+}
+footer .iconfoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .iconfoot span {
+  border-radius: 100%;
+  border: 2px solid white;
+}
+footer .iconfoot span i {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
