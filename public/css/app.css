@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "ZeFont";
-  src: url("../../public/fonts/ZenDots-Regular.ttf");
-}
 .red {
   color: red !important;
 }
