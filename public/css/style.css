@@ -773,14 +773,192 @@ footer .txtimg img {
 }
 
 @media (max-width: 376px) {
-  body {
-    background-color: red;
-  }
   body .accord {
     flex-direction: column;
   }
   body .blanc {
-    left: 17%;
+    left: 37%;
+    height: 100px;
+    width: 100px;
+  }
+  body .molengeek {
+    flex-direction: column;
+    height: 340px;
+  }
+  body .molengeek .nav a {
+    margin: 0px;
+  }
+  body .molen {
+    flex-direction: column;
+  }
+  body .nav {
+    flex-direction: column;
+  }
+  body .nav ul.menu li {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  body .nav a {
+    margin: 0px;
+  }
+  body .txtcar button {
+    width: 110px;
+    font-size: 10px;
+  }
+  body .bgimg1 {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    text-align: center;
+    justify-content: center;
+    margin: auto !important;
+  }
+  body .bgimg1 .txtcar {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto !important;
+    justify-content: center;
+  }
+  body #carouselExampleControls.carousel.slide .carousel-inner .bgimg1 .txtcar {
+    flex-direction: row;
+    margin: auto !important;
+    justify-content: center;
+    left: 1px;
+  }
+  body #carouselExampleControls.carousel.slide .carousel-inner .bgimg2 .txtcar2 {
+    flex-direction: row;
+    margin: auto !important;
+    justify-content: center;
+    left: 1px;
+    text-align: center;
+  }
+  body .bgimg2 {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+  body .txtcar2 {
+    left: 50px;
+  }
+  body .txtcar2 button {
+    width: 110px;
+    font-size: 10px;
+  }
+  body .noir {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: 16px;
+  }
+  body .car1 span {
+    font-size: 12px;
+  }
+  body .chef {
+    flex-direction: column;
+  }
+  body .sec3 .pain {
+    display: none;
+    height: 30px;
+    width: 30px;
+  }
+  body .sec3 .pain img {
+    height: 30px;
+    width: 30px;
+    display: none;
+  }
+  body .sec3txt {
+    width: 300px;
+  }
+  body .sec3txt .check {
+    flex-direction: column;
+    width: 200px;
+  }
+  body .sec3txt button {
+    width: 100px;
+  }
+  body .sec4 .sec4orange span {
+    font-size: 13px;
+  }
+  body .sec4 .call {
+    font-size: 12px;
+  }
+  body .sec4 .call .phone {
+    font-size: 12px;
+  }
+  body .sec4 .call .num {
+    font-size: 12px;
+  }
+  body .sec4 .flexcard .sec4card p {
+    font-size: 12px;
+  }
+  body .sec4 .flexcard .sec4card span {
+    font-size: 12px;
+  }
+  body section5 .sec5 .pain {
+    display: none;
+  }
+  body section5 .sec5 .pain img {
+    display: none;
+  }
+  body section6 .chef {
+    flex-wrap: wrap;
+  }
+  body section6 .chef .cardchef {
+    height: 187px;
+    width: 150px;
+  }
+  body section6 .chef .cardchef h5 {
+    font-size: 17px;
+  }
+  body section6 .chef .cardchef span {
+    font-size: 12px;
+  }
+  body .sec5txt {
+    width: 300px;
+  }
+  body .sec5txt .check {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  body .sec5txt button {
+    width: 100px;
+  }
+  body .orangenew h1 {
+    font-size: 16px;
+  }
+  body .sign {
+    font-size: 8px;
+  }
+  body .sign button {
+    width: 10px;
+    height: 20px;
+  }
+  body .copy {
+    font-size: 14px;
+  }
+  body .copy .your {
+    margin: 10px;
+  }
+  body .txtimg {
+    display: none;
+  }
+  body .txtfoot:nth-child(2) {
+    display: none;
+  }
+  body .txtfoot:nth-child(3) {
+    display: none;
+  }
+  body .molengeek .nav ul.menu {
+    margin: 0px;
+  }
+  body .molengeek .nav ul.menu li {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  body .molengeek .call {
+    margin: 0px;
   }
 }
 
