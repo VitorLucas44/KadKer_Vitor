@@ -772,4 +772,16 @@ footer .txtimg img {
   transform: rotate(45deg);
 }
 
+@media (max-width: 376px) {
+  body {
+    background-color: red;
+  }
+  body .accord {
+    flex-direction: column;
+  }
+  body .blanc {
+    left: 17%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
