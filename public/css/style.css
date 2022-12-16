@@ -661,4 +661,67 @@ footer .txtimg img {
   color: white;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7e7f7e;
+  width: 100%;
+  height: 300px;
+}
+.contact h1 {
+  color: white;
+}
+.contact span {
+  color: white;
+}
+.contact span span {
+  color: #eaa737;
+}
+
+.titrecontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+}
+.titrecontact span {
+  color: #eaa737;
+}
+.titrecontact h1 {
+  margin-bottom: 1%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form span span {
+  color: #eaa737;
+}
+.form .input1 {
+  width: 700px;
+  margin-top: 1%;
+}
+.form .input2 {
+  width: 683px;
+}
+.form .input3 textarea {
+  width: 683px;
+  height: 200px;
+}
+.form button {
+  border: none;
+  background-color: #eaa737;
+  color: white;
+  border-radius: 30px;
+  width: 180px;
+  height: 50px;
+  margin: 1%;
+}
+
 /*# sourceMappingURL=style.css.map */
