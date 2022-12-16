@@ -628,4 +628,37 @@ footer .txtimg img {
   margin: 2px;
 }
 
+.copy {
+  background-color: #101110;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.copy .your {
+  color: white;
+}
+.copy .your span:nth-child(2) {
+  color: #eaa737;
+}
+.copy .your span:nth-child(2):hover {
+  color: white;
+}
+.copy .disigned {
+  color: white;
+}
+.copy .disigned span:nth-child(2) {
+  color: #eaa737;
+}
+.copy .disigned span:nth-child(2):hover {
+  color: white;
+}
+.copy .disigned span:nth-child(5) {
+  color: #eaa737;
+  text-decoration: underline white;
+}
+.copy .disigned span:nth-child(5):hover {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
