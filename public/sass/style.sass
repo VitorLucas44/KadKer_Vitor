@@ -491,14 +491,21 @@ footer
     align-items: center
     .noir
         display: flex
-        justify-content: space-between
+        justify-content: space-around
     .txtfoot
         color: white
         display: flex
         flex-direction: column
         line-height: 35px
+        margin: 50px
         i
             margin-right: 25px
+        a
+                text-decoration: none
+                color: white
+        a:hover
+                font-size: 18px
+                color: #eaa737
     .iconfoot
         display: flex
         flex-direction: row
@@ -508,3 +515,19 @@ footer
             border: 2px solid white
             i
                 margin: 10px
+        span:hover
+                background-color: white
+                color: black
+    .txtimg
+        margin: 50px
+        div
+        display: flex
+        flex-direction: column
+        h2
+            color: white
+        img
+            width: 80px
+            height: 60px
+            border: 3px solid white
+            border-radius: 5px
+            margin: 2px

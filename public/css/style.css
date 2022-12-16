@@ -576,16 +576,25 @@ footer {
 }
 footer .noir {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 footer .txtfoot {
   color: white;
   display: flex;
   flex-direction: column;
   line-height: 35px;
+  margin: 50px;
 }
 footer .txtfoot i {
   margin-right: 25px;
+}
+footer .txtfoot a {
+  text-decoration: none;
+  color: white;
+}
+footer .txtfoot a:hover {
+  font-size: 18px;
+  color: #eaa737;
 }
 footer .iconfoot {
   display: flex;
@@ -598,6 +607,25 @@ footer .iconfoot span {
 }
 footer .iconfoot span i {
   margin: 10px;
+}
+footer .iconfoot span:hover {
+  background-color: white;
+  color: black;
+}
+footer .txtimg {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+footer .txtimg h2 {
+  color: white;
+}
+footer .txtimg img {
+  width: 80px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
